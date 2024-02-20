@@ -1,0 +1,351 @@
+/*
+Author: Iliana Ellison
+Date: 2/12/2024
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for images */
+img {
+    max-width:100%;
+    display: inline;
+}
+
+/* Style rules for mobile viewport */
+/* Hide tab-desk class */
+.tab-desk {
+    display: none;
+}
+
+/* Body */
+body {
+    background-color: #efe5e4;
+    color: #3e3635;
+}
+
+body a:link {
+    color: #1d77f0;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
+
+body a:visited {
+    color: #ef7e53;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    text-align: center;
+    font-size: 1.25em;
+    color: #1d77f0;
+    padding: 5%;
+}
+
+header h1 {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+header h4 {
+    font-family: 'DM Serif Display', serif;
+    
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    clear: left;
+    width: 75%;
+}
+
+header img {
+    width: 15%;
+    clear: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Navigation */
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #1d77f0;
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    word-spacing: -10px;
+}
+
+nav li {
+    display: block;
+    font-size: 1.0em;
+    border-top: 1px solid #fff;
+    word-spacing: 0px;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main */
+main p {
+    font-size: 1.25em;
+}
+
+/* Classes and IDs */
+.main-content {
+    padding: 2% 5%;
+    background-color: #fff;
+    overflow: auto;
+    font-family: 'Work Sans', sans-serif;
+    font-size: .9em;
+}
+
+/* Index/Home */
+
+#home-content {
+    font-size: .9em;
+}
+
+#home-content img{
+    float: left;
+    width: 23%;
+    padding-right: 5%;
+}
+
+/* Fanart */
+#fanart {
+    text-align: center;
+}
+
+#fanart li {
+    display: block;
+    padding: 0.5em 1em;
+    padding-bottom: 7.5%;
+    list-style-type: none;
+}
+
+.thin-image {
+    width: 75%;
+}
+
+.wide-image {
+    width: 100%;
+}
+
+#grian-hug-comic img {
+    width: 35%;
+}
+
+/* Artist */
+#artist-sketch img {
+    float: right;
+    width: 35%;
+}
+
+#minecraft-sona {
+    padding-top: 1em;
+}
+
+#minecraft-sona p {
+    clear: right;
+    clear: left;
+}
+
+.big-image {
+    display: block-inline;
+    float: left;
+    width: 55.5%;
+}
+
+.small-image {
+    display: block-inline;
+    float: right;
+    width: 44.4%;
+}
+
+/* MCYT */
+#mcyt-image img {
+    padding-top: 4%;
+    float: right;
+    width: 25%;
+}
+
+#mcyt-details {
+    padding-top: 1em;
+    clear: right;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;
+    color: #3e3635;
+}
+
+#tumblr-footer-link {
+    font-size: 1.5em;
+}
+
+/* Media querey for tablet viewport */
+@media screen and (min-width: 550px), print {
+
+    /* Tablet viewport: Show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    /* tab-desk: Header Content */
+    span.tab-desk {
+        display: inline;
+    }
+
+    header {
+        font-size: 1.9vw;
+    }
+
+    header h1 {
+        float: left;
+        text-align: center;
+        width: 75%;
+    }
+
+    header h4 {
+        font-family: 'DM Serif Text', serif;
+        float: left;
+        text-align: center;
+        clear: left;
+        width: 75%;
+    }
+    
+    header img {
+        clear: none;
+        float: none;
+        width: 25%;
+    }
+
+    #header-div {
+        width: 50%;
+        margin: auto;
+    }
+
+    /* tab-desk: Navigation */
+    nav {
+        font-size: .5em;
+    }
+
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.5em;
+        border-right: 1px solid #fff;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.25em 0.5em;
+    }
+
+    .main-content {
+        padding: 2% 15%;
+    }
+
+    #home-content {
+        font-size: 1.25em;
+    }
+
+    /* tab-desk: Fanart */
+    #fanart {
+        text-align: left;
+    }
+
+    #fanart li {
+        padding-bottom: 5%;
+    }
+
+    .thin-image {
+        width: 50%;
+    }
+    
+    .wide-image {
+        width: 70%;
+    }
+    
+    #grian-hug-comic img {
+        width: 35%;
+    }
+
+    /* tab-desk: Artist */
+    #artist-intro {
+        padding: 2% 25%;
+    }
+
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print {
+
+    nav {
+        font-size: 1em;
+    }
+
+    /* Desktop Viewport: Style rules for header */
+    header {
+        padding: 2%;
+    }
+
+    /* desktop: Navigation */
+    nav li a {
+        padding: 0.5em 1.5em;
+    }
+
+    nav li a:hover {
+        color: #1d77f0;
+        background: #fff;
+    }
+
+}
+
+/* Media Query for Print */
+@media print {
+
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+    
+}
