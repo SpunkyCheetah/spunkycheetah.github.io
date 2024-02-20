@@ -30,7 +30,6 @@ body {
 }
 
 body a:link {
-    color: #1d77f0;
     text-decoration: none;
 }
 
@@ -79,6 +78,7 @@ nav {
     position: sticky;
     top: 0;
     background-color: #1d77f0;
+    color: #fff;
     clear: both;
 }
 
@@ -92,6 +92,7 @@ nav li {
     display: block;
     font-size: 1.0em;
     border-top: 1px solid #fff;
+    color: #fff;
     word-spacing: 0px;
 }
 
@@ -116,6 +117,10 @@ nav li a:visited {
 /* Main */
 main p {
     font-size: 1.25em;
+}
+
+main a {
+    color: #1d77f0;
 }
 
 /* Classes and IDs */
@@ -210,6 +215,10 @@ footer {
     color: #3e3635;
 }
 
+footer a {
+    color: #1d77f0;
+}
+
 #tumblr-footer-link {
     font-size: 1.5em;
 }
@@ -278,6 +287,7 @@ footer {
 
     nav li a {
         padding: 0.25em 0.5em;
+        color: #fff;
     }
 
     .main-content {
@@ -331,6 +341,7 @@ footer {
     /* desktop: Navigation */
     nav li a {
         padding: 0.5em 1.5em;
+        color: #fff;
     }
 
     nav li a:hover {
