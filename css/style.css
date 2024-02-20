@@ -184,13 +184,13 @@ main a {
 }
 
 .big-image {
-    display: block-inline;
+    display: inline;
     float: left;
     width: 55.5%;
 }
 
 .small-image {
-    display: block-inline;
+    display: inline;
     float: right;
     width: 44.4%;
 }
