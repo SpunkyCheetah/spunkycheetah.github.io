@@ -25,7 +25,8 @@ img {
 
 /* Body */
 body {
-    background-color: #efe5e4;
+    background-image: url(../images/paper-bg-tile.png);
+    background-repeat: repeat;
     color: #3e3635;
 }
 
@@ -147,6 +148,7 @@ main a {
 /* Fanart */
 #fanart {
     text-align: center;
+    margin: auto;
 }
 
 #fanart li {
@@ -271,7 +273,7 @@ footer a {
 
     /* tab-desk: Navigation */
     nav {
-        font-size: .5em;
+        font-size: 2vw;
     }
 
     nav li {
@@ -301,22 +303,29 @@ footer a {
     /* tab-desk: Fanart */
     #fanart {
         text-align: left;
+        padding: 2% 1%;
+    }
+
+    #fanart ul {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #fanart li {
         padding-bottom: 5%;
+        width: 43%;
     }
 
     .thin-image {
-        width: 50%;
+        width: 100%;
     }
     
     .wide-image {
-        width: 70%;
+        width: 100%;
     }
     
     #grian-hug-comic img {
-        width: 35%;
+        width: 49%;
     }
 
     /* tab-desk: Artist */
@@ -347,6 +356,16 @@ footer a {
     nav li a:hover {
         color: #1d77f0;
         background: #fff;
+    }
+
+    #fanart {
+        text-align: left;
+        padding: 2% 5%;
+    }
+
+    #fanart li {
+        padding-bottom: 5%;
+        width: 30%;
     }
 
 }

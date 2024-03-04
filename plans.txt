@@ -1,0 +1,16 @@
+
+
+- fixed typos
+    - "overarcing" -> "overarching", mcyt page
+    - "includescaries over" -> "carries over", mcyt page
+    - missing "for", and "ad" -> "and", mcyt page
+    - "of" -> "at", "oficial" -> "official", mcyt page
+    - "ut" -> "but", mcyt page
+    - "wiht" -> "with", mcyt page
+    - "reccomendations" -> "recommendations", mcyt page
+    - "reccomend" -> "recommend", mcyt page
+- added columns to desktop/tablet on fanart page
+- fixed nav scaling (for tablet screens)
+- added paper texture to background
+- removed backgrounds from fox images
+    - header fox has subtle blended bg
